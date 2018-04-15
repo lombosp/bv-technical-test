@@ -41,11 +41,18 @@ This application can monitor the insertions into the database.
 1. Check the version of the application: http://localhost:8080/version
 
 
-
-
 ### Test
 
 1. Run the following command in the project folder
 
     `mvn test`
 
+
+### Database
+
+Go to the http://localhost:8080/db to connect the database. 
+
+* Driver class: org.h2.Driver
+* JDBC URL: jdbc:h2:mem:testdb
+* User Name: sa
+* Password: ""
